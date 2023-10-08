@@ -41,7 +41,7 @@ export default function Customers() {
             </h2>
 
             <p className="pt-6 pb-8 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-            Join our community of "Happy Customers" and experience top-notch service.
+            Join our community of Happy Customers and experience top-notch service.
             </p>
             <div className="mx-auto w-full max-w-4xl bg-white dark:bg-transparent">
                 <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
