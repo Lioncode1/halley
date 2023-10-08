@@ -20,7 +20,7 @@ const products = [
       "24/7 Technical Assistance",
     ],
     href: "https://whatsform.com/BKwfbM",
-    cta: "Buy Hobby",
+    cta: "Buy Now",
     mostPopular: false,
   },
   {
@@ -40,7 +40,7 @@ const products = [
       "24/7 Technical Assistance",
     ],
     href: "https://whatsform.com/BKwfbM",
-    cta: "Buy Hobby",
+    cta: "Buy Now",
     mostPopular: false,
   },
   {
@@ -60,7 +60,7 @@ const products = [
       "24/7 Technical Assistance",
     ],
     href: "https://whatsform.com/BKwfbM",
-    cta: "Buy Freelancer",
+    cta: "Buy Now",
     mostPopular: true,
   },
   {
@@ -80,7 +80,7 @@ const products = [
       "24/7 Technical Assistance",
     ],
     href: "https://whatsform.com/BKwfbM",
-    cta: "Buy Freelancer",
+    cta: "Buy Now",
     mostPopular: false,
   },
 ];
