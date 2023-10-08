@@ -69,25 +69,25 @@ export default function Contact() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 grid md:grid-cols-2 lg:grid-cols-2 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16">
         <div>
-          <h2 className="text-lg font-bold">Contact Halley</h2>
+          <h2 className="text-lg font-bold">Contact TOP IPTV</h2>
           <p className="max-w-sm mt-4 mb-4 dark:text-neutral-400">
             Have something to say? We are here to help. Fill up the form or send
-            email or call phone.
+            email or Contact Us on WhatsApp.
           </p>
 
           <div className="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
             <MapIcon className="w-4 h-4" />
-            <span>Av Tomas Marsano 700, Lima - Perú</span>
+            <span>Zuster Mechelinastraat 106</span>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <EnvelopeIcon className="w-4 h-4" />
-            <a href="mailto:hello@halley.vercel.app">hello@halley.vercel.app</a>
+            <a href="mailto:hello@halley.vercel.app">support@topiptvservice.com</a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <PhoneIcon className="w-4 h-4" />
-            <a href="tel:51931999999">+51 931999999</a>
+            <a href="tel:51931999999">+49 15510 049926</a>
           </div>
         </div>
 

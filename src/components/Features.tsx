@@ -3,39 +3,39 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
-    title: "Dashboard",
+    title: "Diverse Channel Selection",
     description:
-      "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
+      "Delve into a captivating world of entertainment with our diverse channel selection. We pride ourselves on offering a wide array of international channels that traverse languages and cultures, ensuring that there's always something intriguing to explore. Whether you're seeking global news, regional gems, or specialized content, our extensive channel lineup guarantees a rich and immersive viewing experience.",
     features: [
-      "Lacus eu mauris quisque tortor torquent",
-      "Lorem ipsum dolor sit amet consectetur",
-      "Lacus eu mauris quisque tortor torquent",
+      "Explore global channels with diverse content.",
+      "Discover captivating international shows.",
+      "Multicultural viewing at your fingertips.",
     ],
-    image: "/images/features/dashboard.svg",
+    image: "/images/features/dashboard.png",
     order: false,
   },
   {
-    title: "Products",
+    title: "Extensive Movie Library",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus at modi ea tempore sapiente optio, quas sint nobis pariatur.",
+      "Embark on a cinematic journey like never before with our vast movie library. From thrilling action blockbusters to heartwarming classics and intellectually stimulating dramas, our collection caters to a spectrum of cinematic preferences. Our user-friendly interface simplifies the process of selecting and enjoying movies, making it effortless to plan memorable movie nights in the comfort of your home.",
     features: [
-      "But I must explain to you how all this mistaken",
-      "Voluptatum deleniti atque corrupti quos",
-      "He endures pains to avoid worse pains",
+      "Cinematic paradise with all genres",
+      "Blockbusters to classics for movie nights",
+      "Effortless home entertainment choices",
     ],
-    image: "/images/features/product.svg",
+    image: "/images/features/product.png",
     order: true,
   },
   {
-    title: "Inventory",
+    title: "Real-Time Sports Action",
     description:
-      "Porta facilisis ullamcorper rutrum erat luctus aliquam phasellus pharetra fusce, aliquet montes turpis mus habitasse lectus lacinia.",
+      "For avid sports aficionados, Top IPTV Service brings the thrill of live sports action with minimal delay. Our comprehensive sports coverage encompasses global tournaments, league matches, and even niche sporting events. To elevate your sports-watching experience, we provide insightful post-game analysis, expert commentary, and exhilarating highlights. With us, you're guaranteed to savor every pulse-pounding moment of the game.",
     features: [
-      "Sed ut perspiciatis unde omnis iste natus",
-      "Quis autem vel eum iure reprehenderit",
-      "Consequuntur magni dolores eos qui ratione",
+      "Live sports with minimal delay",
+      "Global tournaments and niche sports",
+      "Expert insights for thrilling viewing",
     ],
-    image: "/images/features/inventory.svg",
+    image: "/images/features/inventory.png",
     order: false,
   },
 ];

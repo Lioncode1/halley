@@ -1,44 +1,37 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const customers = [
     {
         name: "google-play",
-        href: "https://play.google.com/",
-        src: "/images/customers/google-play.svg",
+        src: "/images/customers/google-play.png",
         alt: "Google play logo",
     },
     {
         name: "github",
-        href: "https://github.com/",
-        src: "/images/customers/github.svg",
+        src: "/images/customers/github.png",
         alt: "Github logo",
     },
     {
         name: "docker",
-        href: "https://www.docker.com/",
-        src: "/images/customers/docker.svg",
+        src: "/images/customers/docker.png",
         alt: "Docker logo",
     },
     {
         name: "python",
-        href: "https://www.python.org/",
-        src: "/images/customers/python.svg",
+        src: "/images/customers/python.png",
         alt: "Python logo",
     },
     {
         name: "slack",
-        href: "https://slack.com/",
-        src: "/images/customers/slack.svg",
+        src: "/images/customers/slack.png",
         alt: "Slack logo",
     },
     {
         name: "discord",
-        href: "https://discord.com/",
-        src: "/images/customers/discord.svg",
+        src: "/images/customers/discord.png",
         alt: "Discord logo",
     }
-]
+];
 
 export default function Customers() {
     return (
@@ -48,27 +41,25 @@ export default function Customers() {
             </h2>
 
             <p className="pt-6 pb-8 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit nam maxime quas fugiat tempore blanditiis, eveniet quia accusantium.
+            Join our community of "Happy Customers" and experience top-notch service.
             </p>
             <div className="mx-auto w-full max-w-4xl bg-white dark:bg-transparent">
                 <div className="text-center justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6">
                     {customers.map((item) => (
-                        <Link key={item.name} href={item.href} target="_blank">
+                        <div key={item.name}>
                             <Image
-                                className="h-10 w-auto mt-6 justify-center text-center mx-auto hover:scale-110 transition"
+                                className="h-64 w-auto mt-6 justify-center text-center mx-auto hover:scale-110 transition"
                                 src={item.src}
                                 alt={item.alt}
-                                width={150}
-                                height={150}
-                                quality={75}
+                                width={200}
+                                height={200}
+                                quality={100} // Increased quality value for clearer images
                                 sizes="100vw"
                             />
-                        </Link>
+                        </div>
                     ))}
                 </div>
             </div>
         </div>
-
     );
 }
-

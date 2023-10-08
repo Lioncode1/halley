@@ -8,27 +8,24 @@ export function Hero() {
         <div className="pt-6 md:pt-32 justify-center text-center sm:justify-start sm:text-start">
           <h1 className="text-5xl font-bold">
             Welcome to <br />{" "}
-            <span className="text-rose-500 font-extrabold">Halley</span>
+            <span className="text-rose-500 font-extrabold">TOP IPTV</span>
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
-            Plantilla de aplicación de página única (SPA) desarrollada con
-            Next.js, TypeScript y TailwindCSS. Personalizable y algunas
-            secciones para agregar información importante sobre un producto o un
-            servicio.
+          Discover our reliable IPTV subscriptions with stunning 4K, FHD, HEVC, and HD video quality, perfect for any internet connection speed. Enjoy an extensive channel lineup, including the latest movies and trending series of the moment.”
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>
               <Link href="#services">
                 <button className="bg-black dark:bg-white text-white dark:text-black text-base rounded-full px-4 p-2 font-medium">
-                  Ver más
+                See more
                 </button>
               </Link>
             </div>
 
             <div>
-              <Link href="https://github.com/humberni/halley/blob/main/README.md" target="_blank">
+              <Link href="https://whatsform.com/BKwfbM" target="_blank">
                 <button className="bg-rose-500 text-white text-base rounded-full px-4 p-2 font-medium">
-                  Documentación
+                Terial
                 </button>
               </Link>
             </div>
@@ -37,7 +34,7 @@ export function Hero() {
 
         <div className="flex items-center mt-12">
           <Image
-            src="/images/hero/hero.svg"
+            src="/images/hero/hero.png"
             alt="Image hero description"
             width={1025}
             height={662}

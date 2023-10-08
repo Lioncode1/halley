@@ -4,173 +4,105 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const products = [
   {
-    title: "Hobby",
-    price: 12,
+    title: "1 Month Subscription",
+    price: 9.99,
     currency: "$",
     frecuency: "month",
-    description: "All the features you need to grow your business.",
+    description: "Price: $9.99/month",
     features: [
-      "Unlimited vouchers ∞",
-      "02 users",
-      "Point of sale",
-      "Customers",
+      "+60,000 TV Channels",
+      "+66,000 Movies & Series",
+      "4K / Ultra HD Picture Quality",
+      "FREE Channels & VOD Updates",
+      "99.9% Server Uptime",
+      "All Devices are Supported",
+      "AntiFreeze Technology",
+      "24/7 Technical Assistance",
     ],
-    href: "#",
+    href: "https://whatsform.com/BKwfbM",
     cta: "Buy Hobby",
     mostPopular: false,
   },
   {
-    title: "Hobby",
-    price: 120,
+    title: "3 Months Subscription",
+    price: 27.99,
     currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    frecuency: "month",
+    description: "Price: $27.99 (Save 10%)",
     features: [
-      "Unlimited vouchers ∞",
-      "02 users",
-      "Point of sale",
-      "Customers",
+      "+60,000 TV Channels",
+      "+66,000 Movies & Series",
+      "4K / Ultra HD Picture Quality",
+      "FREE Channels & VOD Updates",
+      "99.9% Server Uptime",
+      "All Devices are Supported",
+      "AntiFreeze Technology",
+      "24/7 Technical Assistance",
     ],
-    href: "#",
+    href: "https://whatsform.com/BKwfbM",
     cta: "Buy Hobby",
     mostPopular: false,
   },
   {
-    title: "Freelancer",
-    price: 24,
+    title: "6 Months Subscription",
+    price: 49.99,
     currency: "$",
     frecuency: "month",
-    description: "All the features you need to grow your business.",
+    description: "Price: $49.99 (Save 17%)",
     features: [
-      "Unlimited vouchers ∞",
-      "04 users",
-      "02 warehouses",
-      "Dashboard",
-      "Point of sale",
+      "+60,000 TV Channels",
+      "+66,000 Movies & Series",
+      "4K / Ultra HD Picture Quality",
+      "FREE Channels & VOD Updates",
+      "99.9% Server Uptime",
+      "All Devices are Supported",
+      "AntiFreeze Technology",
+      "24/7 Technical Assistance",
     ],
-    href: "#",
+    href: "https://whatsform.com/BKwfbM",
     cta: "Buy Freelancer",
     mostPopular: true,
   },
   {
-    title: "Freelancer",
-    price: 240,
+    title: "12 Months Subscription",
+    price: 89.99,
     currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
+    frecuency: "month",
+    description: "Price: $89.99 (Save 25%)",
     features: [
-      "Unlimited vouchers ∞",
-      "04 users",
-      "02 warehouses",
-      "Dashboard",
-      "Point of sale",
+      "+60,000 TV Channels",
+      "+66,000 Movies & Series",
+      "4K / Ultra HD Picture Quality",
+      "FREE Channels & VOD Updates",
+      "99.9% Server Uptime",
+      "All Devices are Supported",
+      "AntiFreeze Technology",
+      "24/7 Technical Assistance",
     ],
-    href: "#",
+    href: "https://whatsform.com/BKwfbM",
     cta: "Buy Freelancer",
-    mostPopular: true,
-  },
-  {
-    title: "Startup",
-    price: 32,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
-    features: [
-      "Unlimited vouchers ∞",
-      "08 users",
-      "04 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Finance",
-      "mobile App",
-    ],
-    href: "#",
-    cta: "Buy Startup",
-    mostPopular: false,
-  },
-  {
-    title: "Startup",
-    price: 320,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
-    features: [
-      "Unlimited vouchers ∞",
-      "08 users",
-      "04 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Finance",
-      "mobile App",
-    ],
-    href: "#",
-    cta: "Buy Startup",
-    mostPopular: false,
-  },
-  {
-    title: "Enterprice",
-    price: 48,
-    currency: "$",
-    frecuency: "month",
-    description: "All the features you need to grow your business.",
-    features: [
-      "Unlimited vouchers ∞",
-      "16 users",
-      "08 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Inventory",
-      "Shopping",
-      "Finance",
-      "mobile App",
-    ],
-    href: "#",
-    cta: "Buy Enterprice",
-    mostPopular: false,
-  },
-  {
-    title: "Enterprice",
-    price: 480,
-    currency: "$",
-    frecuency: "year",
-    description: "All the features you need to grow your business.",
-    features: [
-      "Unlimited vouchers ∞",
-      "16 users",
-      "08 warehouses",
-      "Dashboard",
-      "Point of sale",
-      "Inventory",
-      "Shopping",
-      "Finance",
-      "mobile App",
-    ],
-    href: "#",
-    cta: "Buy Enterprice",
     mostPopular: false,
   },
 ];
 
-type BillingInterval = "year" | "month";
+type BillingInterval = "month";
 
 export default function Pricing() {
-  const [billingInterval, setBillingInterval] =
-    useState<BillingInterval>("month");
+  const [billingInterval] = useState<BillingInterval>("month");
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="pricing">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
         <h2 className="text-4xl font-bold text-center">Pricing</h2>
 
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          We have the perfect product for your business, choose the product that
-          best suits you, Try Halley free for 14 days.
+          Discover the ideal product for your business needs. Choose the option that aligns perfectly with your requirements.
         </p>
       </div>
 
       <div className="mx-auto px-4 sm:px-6 lg:px-8 sm:flex sm:flex-col sm:align-center">
         <div className="relative self-center text-base font-semibold mt-6 bg-neutral-200  dark:bg-neutral-800 rounded-lg flex sm:mt-8">
           <button
-            onClick={() => setBillingInterval("month")}
+            onClick={() => {}}
             type="button"
             className={`${
               billingInterval === "month"
@@ -179,17 +111,6 @@ export default function Pricing() {
             } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
           >
             Monthly billing
-          </button>
-          <button
-            onClick={() => setBillingInterval("year")}
-            type="button"
-            className={`${
-              billingInterval === "year"
-                ? "relative w-1/2 bg-white dark:bg-neutral-600 text-neutral-900 dark:text-neutral-100"
-                : "ml-0.5 relative w-1/2 text-neutral-900 dark:text-neutral-400"
-            } rounded-md m-1 py-2 whitespace-nowrap sm:w-auto sm:px-8`}
-          >
-            Yearly billing
           </button>
         </div>
       </div>
@@ -254,13 +175,13 @@ export default function Pricing() {
                     {/* features */}
                     <ul className="mt-6 px-6 space-y-4 flex-1 border-t border-neutral-300 dark:border-neutral-500">
                       <p className="mt-6 font-semibold dark:text-neutral-300">
-                        What&apos;s included
+                        Package Includes
                       </p>
-                      {features.map((features) => (
-                        <li key={features} className="leading-6 flex">
+                      {features.map((feature) => (
+                        <li key={feature} className="leading-6 flex">
                           <CheckIcon className="mt-2 w-3 h-3 text-rose-500 shrink-0" />
                           <span className="ml-3 dark:text-neutral-400">
-                            {features}
+                            {feature}
                           </span>
                         </li>
                       ))}
