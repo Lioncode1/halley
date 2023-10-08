@@ -9,8 +9,8 @@ const Layout = (props: any) => {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Halley",
-    description: `Halley is a landing page template built with Nextjs and Tailwindcss`,
+    title: "TOP IPTV",
+    description: `Discover the best IPTV service with TOP IPTV. Access a wide range of TV channels, movies, and series in stunning 4K quality. Enjoy free channel updates, excellent server uptime, and round-the-clock technical support.`,
     image: "/images/seo/halley-banner.png",
     type: "website",
     ...customMeta,
