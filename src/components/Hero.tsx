@@ -25,7 +25,7 @@ export function Hero() {
             <div>
               <Link href="https://whatsform.com/BKwfbM" target="_blank">
                 <button className="bg-rose-500 text-white text-base rounded-full px-4 p-2 font-medium">
-                Terial
+                Trial
                 </button>
               </Link>
             </div>
