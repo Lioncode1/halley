@@ -10,7 +10,7 @@ export default function Prefooter() {
       </div>
 
       <div className="text-center pb-20">
-        <Link href="https://whatsform.com/QaKFkW" target="_blank">
+        <Link href="https://whatsform.com/BKwfbM" target="_blank">
           <button className="whatsapp-button rounded-full px-6 p-3 font-medium">
             Contact Us on WhatsApp
           </button>
